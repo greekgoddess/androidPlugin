@@ -1,0 +1,15 @@
+//gradle.afterProject {
+//    def project ->
+//        if (project.name.equals("app")) {
+//            println "app 配置完毕"
+//        }
+//}
+//
+//gradle.buildFinished {
+//    def project ->
+//        if (project.name.equals("app")) {
+//            println "app build finish"
+//        }
+//}
+
+include ':app', ':pluginsdk', ':buildSrc'

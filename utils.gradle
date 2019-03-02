@@ -1,0 +1,8 @@
+
+class UtilsTest {
+    String tt = "Test class";
+
+    String toString() {
+        "UtilsTest.tt = $tt"
+    }
+}

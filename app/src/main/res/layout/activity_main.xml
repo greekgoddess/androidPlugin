@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/open_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="启动插件Activity"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/open_service"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="启动插件service"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/close_service"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="关闭插件service"
+        android:onClick="onClick"/>
+
+</LinearLayout>
